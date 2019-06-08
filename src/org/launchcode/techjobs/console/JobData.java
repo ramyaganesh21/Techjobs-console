@@ -93,7 +93,7 @@ public class JobData {
 
             for (Map.Entry<String, String> column : row.entrySet()){
                 String a = column.getKey();
-                String b = column.getKey();
+                String b = column.getValue();
 
                 if (a.toLowerCase().contains(value) || b.toLowerCase().contains(value)){
                     jobs.add(row);
